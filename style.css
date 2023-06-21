@@ -1,0 +1,38 @@
+html {
+    --color-red-light: hsl(0, 100%, 67%);
+    --color-yellow-orange: hsl(39, 100%, 56%);
+    --color-teal-green: hsl(166, 100%, 37%);
+    --color-blue-cobalt: hsl(234, 85%, 45%);
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+aside {
+  max-width: 800px;
+}
+
+.main-results {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.main-score {
+  width: 200px;
+  height: 200px;
+  background-color: var(--color-blue-cobalt);
+  border-radius: 50%;
+}
+
+/* Style created by FrontendMentor */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
